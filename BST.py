@@ -1,21 +1,3 @@
-"""
-Rohan is learning about trees and he want to test his knowledge on trees by constructing a BinarySearch Tree
-from the list which contains the following:
-a)the elements in the list are the pairs of numbers whose sum is equal to n in soreted order
-b)the list do not contain duplicate numbers and negative numbers if exists then ignore
-
-input format:
- first line contains list of numbers
- second line contains number n
-output format:
- inorder traversal of BinarySearch Tree
-example:
-input:
-3 4 5
-9
-output:
-3
-"""
 class Node: 
     def __init__(self,key): 
         self.left = None
