@@ -9,7 +9,7 @@ input format:
  	first line contains array of numbers
  	second line contains number n
 output format:
- 	inorder traversal of BinarySearch Tree
+ 	inorder traversal of BinarySearch Tree if list is not empty else print -1
 
 Example:
 input:
@@ -23,4 +23,10 @@ input:
 6
 output:
 3 2 4
+
+input:
+3 4 5 2
+10
+output:
+-1
 
